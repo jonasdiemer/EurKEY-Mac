@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 2.2.4 on 2013-07-01 at 22:05 (MESZ)-->
+<!--Last edited by Ukelele version 2.2.4 on 2013-07-03 at 20:15 (MESZ)-->
 <!--Created by Ukelele version 2.2.4 on 2013-07-01 at 20:44 (MESZ)-->
 <keyboard group="0" id="14844" name="EurKEY" maxout="1">
     <layouts>
@@ -397,7 +397,7 @@
             <key code="14" output="ë"/>
             <key code="15" output="ý"/>
             <key code="16" output="ÿ"/>
-            <key code="17" output="ƥ"/>
+            <key code="17" output="þ"/>
             <key code="18" output="¡"/>
             <key code="19" output="ª"/>
             <key code="20" output="˚"/>
@@ -509,7 +509,7 @@
             <key code="14" output="Ë"/>
             <key code="15" output="Ý"/>
             <key code="16" output="Ÿ"/>
-            <key code="17" output="ˇ"/>
+            <key code="17" output="Þ"/>
             <key code="18" output="¹"/>
             <key code="19" output="²"/>
             <key code="20" output="³"/>
@@ -1022,20 +1022,8 @@
         </keyMap>
     </keyMapSet>
     <actions>
-        <action id="0">
-            <when state="none" next="´"/>
-        </action>
         <action id="1">
             <when state="none" next="s2"/>
-        </action>
-        <action id="2">
-            <when state="none" next="^"/>
-        </action>
-        <action id="3">
-            <when state="none" next="¨"/>
-        </action>
-        <action id="4">
-            <when state="none" next="~"/>
         </action>
         <action id="5">
             <when state="none" output=" "/>
