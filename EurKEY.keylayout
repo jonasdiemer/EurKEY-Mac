@@ -91,7 +91,7 @@
             <key code="46" action="m"/>
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" action="5"/>
+            <key code="49" action="space"/>
             <key code="50" output="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
@@ -203,7 +203,7 @@
             <key code="46" action="M"/>
             <key code="47" output="&#x003E;"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" action="5"/>
+            <key code="49" action="space"/>
             <key code="50" output="~"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
@@ -315,7 +315,7 @@
             <key code="46" action="M"/>
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" action="5"/>
+            <key code="49" action="space"/>
             <key code="50" output="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
@@ -875,7 +875,7 @@
             <key code="46" output="&#x000D;"/>
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" action="5"/>
+            <key code="49" action="space"/>
             <key code="50" output="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
@@ -948,8 +948,8 @@
             <key code="93" output="¥"/>
             <key code="94" output="_"/>
             <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
+            <key code="102" action="space"/>
+            <key code="104" action="space"/>
         </keyMap>
         <keyMap index="1" baseMapSet="16c" baseIndex="1">
             <key code="19" output="&#x0022;"/>
@@ -968,8 +968,8 @@
             <key code="93" output="|"/>
             <key code="94" output="_"/>
             <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
+            <key code="102" action="space"/>
+            <key code="104" action="space"/>
         </keyMap>
         <keyMap index="2" baseMapSet="16c" baseIndex="2">
             <key code="24" output="^"/>
@@ -980,43 +980,43 @@
             <key code="93" output="¥"/>
             <key code="94" output="_"/>
             <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
+            <key code="102" action="space"/>
+            <key code="104" action="space"/>
         </keyMap>
         <keyMap index="3" baseMapSet="16c" baseIndex="3">
             <key code="93" output="\"/>
             <key code="94" action="`"/>
             <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
+            <key code="102" action="space"/>
+            <key code="104" action="space"/>
         </keyMap>
         <keyMap index="4" baseMapSet="16c" baseIndex="4">
             <key code="93" output="|"/>
             <key code="94" output="`"/>
             <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
+            <key code="102" action="space"/>
+            <key code="104" action="space"/>
         </keyMap>
         <keyMap index="5" baseMapSet="16c" baseIndex="5">
             <key code="93" output="\"/>
             <key code="94" output="`"/>
             <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
+            <key code="102" action="space"/>
+            <key code="104" action="space"/>
         </keyMap>
         <keyMap index="6" baseMapSet="16c" baseIndex="6">
             <key code="93" output="\"/>
             <key code="94" output="_"/>
             <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
+            <key code="102" action="space"/>
+            <key code="104" action="space"/>
         </keyMap>
         <keyMap index="7" baseMapSet="16c" baseIndex="7">
             <key code="93" output="|"/>
             <key code="94" output="_"/>
             <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
+            <key code="102" action="space"/>
+            <key code="104" action="space"/>
         </keyMap>
     </keyMapSet>
     <actions>
@@ -1031,17 +1031,6 @@
         <action id="3">
             <when state="none" output="3"/>
             <when state="dead: ¯" output="—"/>
-        </action>
-        <action id="5">
-            <when state="none" output=" "/>
-            <when state="dead: ^" output="^"/>
-            <when state="dead: `" output="`"/>
-            <when state="dead: ~" output="~"/>
-            <when state="dead: ¨" output="¨"/>
-            <when state="dead: ¯" output="¯"/>
-            <when state="dead: ´" output="´"/>
-            <when state="dead: ˇ" output="ˇ"/>
-            <when state="dead: ˚" output="˚"/>
         </action>
         <action id="9">
             <when state="none" output="N"/>
@@ -1307,6 +1296,17 @@
             <when state="dead: ^" output="ŝ"/>
             <when state="dead: ´" output="ś"/>
             <when state="dead: ˇ" output="š"/>
+        </action>
+        <action id="space">
+            <when state="none" output=" "/>
+            <when state="dead: ^" output="^"/>
+            <when state="dead: `" output="`"/>
+            <when state="dead: ~" output="~"/>
+            <when state="dead: ¨" output="¨"/>
+            <when state="dead: ¯" output="¯"/>
+            <when state="dead: ´" output="´"/>
+            <when state="dead: ˇ" output="ˇ"/>
+            <when state="dead: ˚" output="˚"/>
         </action>
         <action id="t">
             <when state="none" output="t"/>
