@@ -1024,22 +1024,26 @@
             <when state="none" output=" "/>
             <when state="dead: ^" output="^"/>
             <when state="dead: `" output="`"/>
+            <when state="dead: ~" output="~"/>
             <when state="dead: ¨" output="¨"/>
             <when state="dead: ´" output="´"/>
             <when state="dead: ˚" output="˚"/>
         </action>
         <action id="9">
             <when state="none" output="N"/>
+            <when state="dead: ~" output="Ñ"/>
             <when state="dead: ´" output="Ń"/>
         </action>
         <action id="16">
             <when state="none" output="n"/>
+            <when state="dead: ~" output="ñ"/>
             <when state="dead: ´" output="ń"/>
         </action>
         <action id="A">
             <when state="none" output="A"/>
             <when state="dead: ^" output="Â"/>
             <when state="dead: `" output="À"/>
+            <when state="dead: ~" output="Ã"/>
             <when state="dead: ¨" output="Ä"/>
             <when state="dead: ´" output="Á"/>
             <when state="dead: ˚" output="Å"/>
@@ -1076,6 +1080,7 @@
             <when state="none" output="I"/>
             <when state="dead: ^" output="Î"/>
             <when state="dead: `" output="Ì"/>
+            <when state="dead: ~" output="Ĩ"/>
             <when state="dead: ¨" output="Ï"/>
             <when state="dead: ´" output="Í"/>
             <when state="dead: ˚" output="İ"/>
@@ -1100,6 +1105,7 @@
             <when state="none" output="O"/>
             <when state="dead: ^" output="Ô"/>
             <when state="dead: `" output="Ò"/>
+            <when state="dead: ~" output="Õ"/>
             <when state="dead: ¨" output="Ö"/>
             <when state="dead: ´" output="Ó"/>
         </action>
@@ -1120,6 +1126,7 @@
             <when state="none" output="U"/>
             <when state="dead: ^" output="Û"/>
             <when state="dead: `" output="Ù"/>
+            <when state="dead: ~" output="Ũ"/>
             <when state="dead: ¨" output="Ü"/>
             <when state="dead: ´" output="Ú"/>
             <when state="dead: ˚" output="Ů"/>
@@ -1132,6 +1139,7 @@
         <action id="Y">
             <when state="none" output="Y"/>
             <when state="dead: ^" output="Ŷ"/>
+            <when state="dead: ~" output="Ỹ"/>
             <when state="dead: ¨" output="Ÿ"/>
             <when state="dead: ´" output="Ý"/>
         </action>
@@ -1150,6 +1158,7 @@
             <when state="none" output="a"/>
             <when state="dead: ^" output="â"/>
             <when state="dead: `" output="à"/>
+            <when state="dead: ~" output="ã"/>
             <when state="dead: ¨" output="ä"/>
             <when state="dead: ´" output="á"/>
             <when state="dead: ˚" output="å"/>
@@ -1186,6 +1195,7 @@
             <when state="none" output="i"/>
             <when state="dead: ^" output="î"/>
             <when state="dead: `" output="ì"/>
+            <when state="dead: ~" output="ĩ"/>
             <when state="dead: ¨" output="ï"/>
             <when state="dead: ´" output="í"/>
         </action>
@@ -1209,6 +1219,7 @@
             <when state="none" output="o"/>
             <when state="dead: ^" output="ô"/>
             <when state="dead: `" output="ò"/>
+            <when state="dead: ~" output="õ"/>
             <when state="dead: ¨" output="ö"/>
             <when state="dead: ´" output="ó"/>
         </action>
@@ -1229,6 +1240,7 @@
             <when state="none" output="u"/>
             <when state="dead: ^" output="û"/>
             <when state="dead: `" output="ù"/>
+            <when state="dead: ~" output="ũ"/>
             <when state="dead: ¨" output="ü"/>
             <when state="dead: ´" output="ú"/>
             <when state="dead: ˚" output="ů"/>
@@ -1242,6 +1254,7 @@
         <action id="y">
             <when state="none" output="y"/>
             <when state="dead: ^" output="ŷ"/>
+            <when state="dead: ~" output="ỹ"/>
             <when state="dead: ¨" output="ÿ"/>
             <when state="dead: ´" output="ý"/>
             <when state="dead: ˚" output="ẙ"/>
