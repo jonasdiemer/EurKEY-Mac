@@ -13,7 +13,7 @@ Install
 =======
 
 Copy the two files `EurKEY.keylayout` and `EurKEY.icns` to your library,
-either system-wide (`/Library/Keyboard Layouts`) or for your local user (`~/Library
+either system-wide (`/Library/Keyboard Layouts`) or for your local user (`~/Library`).
 
 
 License
