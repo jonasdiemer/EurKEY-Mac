@@ -411,7 +411,7 @@
 			<key code="29" output="”"/>
 			<key code="30" output="»"/>
 			<key code="31" output="ö"/>
-			<key code="32" output="ü"/>
+			<key code="32" action="ü"/>
 			<key code="33" output="«"/>
 			<key code="34" output="ï"/>
 			<key code="35" output="œ"/>
@@ -523,7 +523,7 @@
 			<key code="29" output="’"/>
 			<key code="30" output="›"/>
 			<key code="31" output="Ö"/>
-			<key code="32" output="Ü"/>
+			<key code="32" action="Ü"/>
 			<key code="33" output="‹"/>
 			<key code="34" output="Ï"/>
 			<key code="35" output="Œ"/>
@@ -1033,6 +1033,7 @@
 		</action>
 		<action id="#">
 			<when state="none" output="#"/>
+			<when state="dead: ˇ" output="Ǯ"/>
 			<when state="dead: Ω" output="₃"/>
 		</action>
 		<action id="$">
@@ -1102,6 +1103,7 @@
 			<when state="none" output="3"/>
 			<when state="dead: ©" output="¾"/>
 			<when state="dead: ¯" output="—"/>
+			<when state="dead: ˇ" output="ǯ"/>
 			<when state="dead: Ω" output="³"/>
 			<when state="dead: √" output="∛"/>
 		</action>
@@ -1683,6 +1685,10 @@
 			<when state="none" output="Ø"/>
 			<when state="dead: ´" output="Ǿ"/>
 		</action>
+		<action id="Ü">
+			<when state="none" output="Ü"/>
+			<when state="dead: ˇ" output="Ǚ"/>
+		</action>
 		<action id="æ">
 			<when state="none" output="æ"/>
 			<when state="dead: ¯" output="ǣ"/>
@@ -1691,6 +1697,10 @@
 		<action id="ø">
 			<when state="none" output="ø"/>
 			<when state="dead: ´" output="ǿ"/>
+		</action>
+		<action id="ü">
+			<when state="none" output="ü"/>
+			<when state="dead: ˇ" output="ǚ"/>
 		</action>
 		<action id="ˇ">
 			<when state="none" next="dead: ˇ"/>
