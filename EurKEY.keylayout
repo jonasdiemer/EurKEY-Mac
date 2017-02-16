@@ -379,7 +379,7 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="3">
-			<key code="0" output="ä"/>
+			<key code="0" action="ä"/>
 			<key code="1" output="ß"/>
 			<key code="2" output="đ"/>
 			<key code="3" output="è"/>
@@ -393,7 +393,7 @@
 			<key code="11" output="í"/>
 			<key code="12" action="æ"/>
 			<key code="13" output="å"/>
-			<key code="14" output="ë"/>
+			<key code="14" action="ë"/>
 			<key code="15" output="ý"/>
 			<key code="16" output="ÿ"/>
 			<key code="17" output="þ"/>
@@ -410,10 +410,10 @@
 			<key code="28" output="„"/>
 			<key code="29" output="”"/>
 			<key code="30" output="»"/>
-			<key code="31" output="ö"/>
+			<key code="31" action="ö"/>
 			<key code="32" action="ü"/>
 			<key code="33" output="«"/>
-			<key code="34" output="ï"/>
+			<key code="34" action="ï"/>
 			<key code="35" output="œ"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" action="ø"/>
@@ -491,7 +491,7 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="4">
-			<key code="0" output="Ä"/>
+			<key code="0" action="Ä"/>
 			<key code="1" output="§"/>
 			<key code="2" output="Đ"/>
 			<key code="3" output="È"/>
@@ -505,7 +505,7 @@
 			<key code="11" output="Í"/>
 			<key code="12" action="Æ"/>
 			<key code="13" output="Å"/>
-			<key code="14" output="Ë"/>
+			<key code="14" action="Ë"/>
 			<key code="15" output="Ý"/>
 			<key code="16" output="Ÿ"/>
 			<key code="17" output="Þ"/>
@@ -522,10 +522,10 @@
 			<key code="28" output="‚"/>
 			<key code="29" output="’"/>
 			<key code="30" output="›"/>
-			<key code="31" output="Ö"/>
+			<key code="31" action="Ö"/>
 			<key code="32" action="Ü"/>
 			<key code="33" output="‹"/>
-			<key code="34" output="Ï"/>
+			<key code="34" action="Ï"/>
 			<key code="35" output="Œ"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" action="Ø"/>
@@ -1678,10 +1678,26 @@
 		<action id="´">
 			<when state="none" next="dead: ´"/>
 		</action>
+		<action id="Ä">
+			<when state="none" output="Ä"/>
+			<when state="dead: `" output="Ą"/>
+		</action>
 		<action id="Æ">
 			<when state="none" output="Æ"/>
 			<when state="dead: ¯" output="Ǣ"/>
 			<when state="dead: ´" output="Ǽ"/>
+		</action>
+		<action id="Ë">
+			<when state="none" output="Ë"/>
+			<when state="dead: `" output="Ę"/>
+		</action>
+		<action id="Ï">
+			<when state="none" output="Ï"/>
+			<when state="dead: `" output="Į"/>
+		</action>
+		<action id="Ö">
+			<when state="none" output="Ö"/>
+			<when state="dead: `" output="Ǫ"/>
 		</action>
 		<action id="Ø">
 			<when state="none" output="Ø"/>
@@ -1689,12 +1705,29 @@
 		</action>
 		<action id="Ü">
 			<when state="none" output="Ü"/>
+			<when state="dead: `" output="Ų"/>
 			<when state="dead: ˇ" output="Ǚ"/>
+		</action>
+		<action id="ä">
+			<when state="none" output="ä"/>
+			<when state="dead: `" output="ą"/>
 		</action>
 		<action id="æ">
 			<when state="none" output="æ"/>
 			<when state="dead: ¯" output="ǣ"/>
 			<when state="dead: ´" output="ǽ"/>
+		</action>
+		<action id="ë">
+			<when state="none" output="ë"/>
+			<when state="dead: `" output="ę"/>
+		</action>
+		<action id="ï">
+			<when state="none" output="ï"/>
+			<when state="dead: `" output="į"/>
+		</action>
+		<action id="ö">
+			<when state="none" output="ö"/>
+			<when state="dead: `" output="ǫ"/>
 		</action>
 		<action id="ø">
 			<when state="none" output="ø"/>
@@ -1702,6 +1735,7 @@
 		</action>
 		<action id="ü">
 			<when state="none" output="ü"/>
+			<when state="dead: `" output="ų"/>
 			<when state="dead: ˇ" output="ǚ"/>
 		</action>
 		<action id="ˇ">
