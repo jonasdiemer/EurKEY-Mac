@@ -381,7 +381,7 @@
 		<keyMap index="3">
 			<key code="0" output="ä"/>
 			<key code="1" output="ß"/>
-			<key code="2" output="ð"/>
+			<key code="2" output="đ"/>
 			<key code="3" output="è"/>
 			<key code="4" output="ù"/>
 			<key code="5" output="é"/>
@@ -493,7 +493,7 @@
 		<keyMap index="4">
 			<key code="0" output="Ä"/>
 			<key code="1" output="§"/>
-			<key code="2" output="Ð"/>
+			<key code="2" output="Đ"/>
 			<key code="3" output="È"/>
 			<key code="4" output="Ù"/>
 			<key code="5" output="É"/>
