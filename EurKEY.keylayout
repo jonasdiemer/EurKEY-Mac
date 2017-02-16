@@ -1186,6 +1186,7 @@
 		</action>
 		<action id="B">
 			<when state="none" output="B"/>
+			<when state="dead: ¯" output="Ƀ"/>
 			<when state="dead: ´" output="Ɓ"/>
 			<when state="dead: Ω" output="Β"/>
 			<when state="dead: √" output="⊇"/>
@@ -1425,6 +1426,7 @@
 		</action>
 		<action id="b">
 			<when state="none" output="b"/>
+			<when state="dead: ¯" output="ƀ"/>
 			<when state="dead: ´" output="ɓ"/>
 			<when state="dead: Ω" output="β"/>
 			<when state="dead: √" output="⊆"/>
