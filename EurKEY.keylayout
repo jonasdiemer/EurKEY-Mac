@@ -420,7 +420,7 @@
 			<key code="38" output="ú"/>
 			<key code="39" action="´"/>
 			<key code="40" output="ĳ"/>
-			<key code="41" action="¨"/>
+			<key code="41" output="°"/>
 			<key code="42" output="¬"/>
 			<key code="43" output="ò"/>
 			<key code="44" output="¿"/>
