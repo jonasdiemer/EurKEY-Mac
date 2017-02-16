@@ -530,7 +530,7 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" action="Ø"/>
 			<key code="38" output="Ú"/>
-			<key code="39" output="†"/>
+			<key code="39" action="¨"/>
 			<key code="40" output="Ĳ"/>
 			<key code="41" output="·"/>
 			<key code="42" output="¦"/>
