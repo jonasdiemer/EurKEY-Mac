@@ -1235,6 +1235,7 @@
 		<action id="H">
 			<when state="none" output="H"/>
 			<when state="dead: ^" output="Ĥ"/>
+			<when state="dead: ¨" output="Ḧ"/>
 			<when state="dead: ©" output="⇐"/>
 			<when state="dead: ¯" output="Ħ"/>
 			<when state="dead: ˇ" output="Ȟ"/>
@@ -1362,11 +1363,13 @@
 		<action id="W">
 			<when state="none" output="W"/>
 			<when state="dead: ^" output="Ŵ"/>
+			<when state="dead: ¨" output="Ẅ"/>
 			<when state="dead: ´" output="Ẃ"/>
 			<when state="dead: Ω" output="Ψ"/>
 		</action>
 		<action id="X">
 			<when state="none" output="X"/>
+			<when state="dead: ¨" output="Ẍ"/>
 			<when state="dead: Ω" output="Ξ"/>
 			<when state="dead: √" output="∄"/>
 		</action>
@@ -1470,6 +1473,7 @@
 		<action id="h">
 			<when state="none" output="h"/>
 			<when state="dead: ^" output="ĥ"/>
+			<when state="dead: ¨" output="ḧ"/>
 			<when state="dead: ©" output="←"/>
 			<when state="dead: ¯" output="ħ"/>
 			<when state="dead: ˇ" output="ȟ"/>
@@ -1584,6 +1588,7 @@
 		</action>
 		<action id="t">
 			<when state="none" output="t"/>
+			<when state="dead: ¨" output="ẗ"/>
 			<when state="dead: ©" output="™"/>
 			<when state="dead: ¯" output="ŧ"/>
 			<when state="dead: ˇ" output="ť"/>
@@ -1610,12 +1615,14 @@
 		<action id="w">
 			<when state="none" output="w"/>
 			<when state="dead: ^" output="ŵ"/>
+			<when state="dead: ¨" output="ẅ"/>
 			<when state="dead: ´" output="ẃ"/>
 			<when state="dead: ˚" output="ẘ"/>
 			<when state="dead: Ω" output="ψ"/>
 		</action>
 		<action id="x">
 			<when state="none" output="x"/>
+			<when state="dead: ¨" output="ẍ"/>
 			<when state="dead: Ω" output="ξ"/>
 		</action>
 		<action id="y">
