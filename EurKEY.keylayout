@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Last edited by Ukelele version 3.2.2.166 on 2017-02-16 at 16:36 (GMT+1)-->
-<keyboard group="126" id="-14519" name="EurKEY v1.2 (beta)" maxout="1">
+<keyboard group="126" id="-14519" name="EurKEY v1.2" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
 		<layout first="18" last="18" mapSet="994" modifiers="f4"/>
