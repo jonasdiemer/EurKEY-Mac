@@ -11,7 +11,7 @@ This is a port of the [EurKEY Keyboard layout](http://eurkey.steffen.bruentjen.e
 Install
 =======
 
-Copy the two files `EurKEY.keylayout` and `EurKEY.icns` to your library, either system-wide (`/Library/Keyboard Layouts`) or for your local user (`~/Library/Keyboard Layouts`).
+Copy the two files `EurKEY.keylayout` and `EurKEY.icns` to your library, either system-wide (`/Library/Keyboard Layouts`) or for your local user (`~/Library/Keyboard Layouts`). A system-wide installation is preferred though to ensure the layout is available to all applications. (See also [this Superuser answer](https://superuser.com/a/561613/263461).)
 
 
 License
