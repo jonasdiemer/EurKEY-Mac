@@ -11,7 +11,12 @@ This is a port of the [EurKEY Keyboard layout](http://eurkey.steffen.bruentjen.e
 Install
 =======
 
-Copy the two files `EurKEY.keylayout` and `EurKEY.icns` to your library, either system-wide (`/Library/Keyboard Layouts`) or for your local user (`~/Library/Keyboard Layouts`). A system-wide installation is preferred though to ensure the layout is available to all applications. (See also [this Superuser answer](https://superuser.com/a/561613/263461).)
+Copy the two files `EurKEY.keylayout` and `EurKEY.icns` to your library, either system-wide (`/Library/Keyboard Layouts`) or for your local user (`~/Library/Keyboard Layouts`). A system-wide installation is preferred to ensure the layout is available to all applications. (See also [this Superuser answer](https://superuser.com/a/561613/263461).) For the changes to take effect a restart is required.
+
+
+How to use the Keyboard
+=======
+After the restart go to `System Settings` > `Keyboard` > `Edit` > `+` and search for `EurKEY v1.2`. After adding the layout select its symbol from the menu bar icon.
 
 
 License
