@@ -1,3 +1,5 @@
+**This fork is no longer maintained.** Please find a well-maintained fork of this here: https://eurkey-macos.eu and https://github.com/felixfoertsch/EurKEY-macOS.
+
 EurKEY-Mac
 ==========
 
